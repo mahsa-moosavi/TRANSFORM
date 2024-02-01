@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sec1{
+
+    margin-top: 5rem;
+    display: flex;
+   flex-flow: row wrap;
+   justify-content: space-evenly;
+   align-items: center;
+
+}
+
+
+
+
+section div{
+    width: 8rem;
+    height: 6rem;
+    background-color: rgb(225, 217, 207);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 2s;
+   
+}
+.tr1{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.rt1{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+}
+
+.rt1:hover{
+    cursor: pointer;
+   transform-origin:top bottom;
+   transform:rotate(50deg);
+
+}
+
+.tr2{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.rt2{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+
+}
+
+.rt2:hover{
+    cursor: pointer;
+    transform-origin:top bottom;
+    transform:rotatex(50deg);
+ 
+ }
+
+ .tr3{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.rt3{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+
+}
+
+.rt3:hover{
+    cursor: pointer;
+    transform-origin:left right;
+    transform:rotatey(50deg);
+ 
+ }
+ .tr4{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.rt4{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+
+}
+
+.rt4:hover{
+    cursor: pointer;
+    transform:scale(2.5);
+ 
+ }
+ .tr5{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.rt5{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+
+}
+
+.rt5:hover{
+    cursor: pointer;
+    transform:scaleX(2);
+ 
+ }
+
+ .sec2{
+    margin-top: 5rem;
+    display: flex;
+   flex-flow: row wrap;
+   justify-content: space-evenly;
+   align-items: center;
+
+ }
+
+ .dna1{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda1{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+}
+
+.nda1:hover{
+    cursor: pointer;
+   transform: scaleY(2);
+
+}
+
+.dna2{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda2{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+}
+
+.nda2:hover{
+    cursor: pointer;
+   transform:skewX(40deg);
+
+}
+
+
+.dna3{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda3{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+}
+
+.nda3:hover{
+    cursor: pointer;
+   transform:skewY(40deg)
+
+}
+
+
+.dna4{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda4{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+}
+
+.nda4:hover{
+    cursor: pointer;
+   transform:translate(30px,30px);
+
+}
+.dna5{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda5{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+}
+
+.nda5:hover{
+    cursor: pointer;
+   transform:translatex(30px);
+
+}
+
+.sec3{
+
+    margin:3rem;
+    display: flex;
+   flex-flow: row wrap;
+   justify-content: space-evenly;
+   align-items: center;}
+
+   .dna6{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda6{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+}
+
+.nda6:hover{
+    cursor: pointer;
+   transform:translatey(30px);
+
+}
+
+   
+
+.dna7{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda7{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+}
+
+.nda7:hover{
+    cursor: pointer;
+   transform:perspective(100px) skewX(50deg) scale(2);
+
+}
+
+.sec4{
+
+    margin:3rem;
+    display: flex;
+   flex-flow: row wrap;
+   justify-content: space-evenly;
+   align-items: center;}
+
+   .dna8{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda8{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+}
+
+.nda8:hover{
+    cursor: pointer;
+   transform:perspective(40px) rotateX(30deg);
+
+}
+
+   
+
+.dna9{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda9{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+}
+
+.nda9:hover{
+    cursor: pointer;
+   transform:perspective(50px) rotateY(40deg);
+
+}
+
+.sec5{
+
+    margin:3rem;
+    display: flex;
+   flex-flow: row wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   
+  
+}
+
+   .dna10{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda10{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+      transform-origin: top right;
+}
+
+.nda10:hover{
+    cursor: pointer;
+    /* transform-origin: top right; */
+    transform: rotate(45deg);
+   
+ 
+
+}
+
+   
+
+.dna11{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda11{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+    transform-origin: bottom left;
+}
+
+.nda11:hover{
+    cursor: pointer;
+   transform: rotate(45deg);
+
+}
+
+.dna12{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda12{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+    transform-origin: bottom;
+ 
+
+}
+
+.nda12:hover{
+    cursor: pointer;
+    transform:perspective(50px) rotateX(40deg);
+   
+}
+
+
+.dna13{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda13{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+    transform-origin: top;
+}
+
+.nda13:hover{
+    cursor: pointer;
+   transform:perspective(100px) rotatex(80deg) ;
+
+}
+
+
+
+.dna14{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda14{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+    transform-origin: left;
+}
+
+.nda14:hover{
+    cursor: pointer;
+   transform:perspective(50px) rotateY(40deg);
+
+}
+
+.sec6{
+
+    margin:3rem;
+    display: flex;
+   flex-flow: row wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   
+  
+}
+
+
+.dna15{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda15{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+    transform-origin: right;
+}
+
+.nda15:hover{
+    cursor: pointer;
+   transform:perspective(120px) rotateY(80deg);
+
+}
+
+
+.dna16{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda16{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+    transform-origin: right top;
+
+}
+
+.nda16:hover{
+    cursor: pointer;
+   transform:scale(2);
+
+}
+.dna17{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda17{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+    transform-origin: bottom left;
+}
+
+.nda17:hover{
+    cursor: pointer;
+   transform:scale(2);
+
+}
+
+
+.dna18{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda18{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+    transform-origin: right;
+}
+
+.nda18:hover{
+    cursor: pointer;
+   transform:scaleX(2);
+
+}
+
+
+.dna19{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda19{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+    transform-origin: left;
+}
+
+.nda19:hover{
+    cursor: pointer;
+   transform:scaleX(2);
+
+}
+
+
+.sec7{
+
+    margin:3rem;
+    display: flex;
+   flex-flow: row wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   
+  
+}
+
+
+.dna20{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda20{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+    transform-origin: top;
+}
+
+.nda20:hover{
+    cursor: pointer;
+   transform:scaley(2);
+
+}
+
+
+.dna21{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    opacity: 0.6;
+}
+.nda21{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(148, 57, 217);
+    opacity: 0.5;
+    transform-origin: bottom;
+}
+
+.nda21:hover{
+    cursor: pointer;
+   transform:scaley(2);
+
+}
+
+
+
+
+
+
